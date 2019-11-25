@@ -40,21 +40,27 @@ public class ViewController {
 
 
     public void produtos(ActionEvent actionEvent) {
+        System.out.println("PORRA");
     }
 
     public void galeria(ActionEvent actionEvent) {
+        System.out.println("CARALHO");
     }
 
     public void logar(ActionEvent actionEvent) {
+        System.out.println("FPD");
     }
 
     public void contato(ActionEvent actionEvent) {
+        System.out.println("ZE");
     }
 
     public void sair(ActionEvent actionEvent) {
+        System.out.println("BU");
     }
 
     public void encomendas(ActionEvent actionEvent) {
+        System.out.println("ORRA");
     }
 }
 

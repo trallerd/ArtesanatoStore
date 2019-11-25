@@ -3,113 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fazer Cadastro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fazer Cadastro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/artifacts/JavaFXApp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Primeiro/Modelo Relacional em Formato do Workbench.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Primeiro/ProjetoIntegrado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Primeiro/Relacional.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/ASA - Artesanato Store da Adri.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/ASACasodeUso.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/2 Funções.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/2 Views.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/3 TRIGGERS .pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/5 Store Procedure.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/Banco.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/Banco.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/Banco.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/BancoSript.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/Event Schedule.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/ScriptPovoamento.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Banco/banco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Documentação/Segundo/Caso de Uso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/Fazer Cadastro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/ProjetoIntegrado.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/lib/commons-dbutils-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/lib/jar_files.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/lib/sqlite-jdbc-3.27.2.1(1).jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Control/CadastroController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Control/ViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Categoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/FabricaConexao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaCategoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaEndereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaLocacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaProduto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Gerenciadores/GerenciaVenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Locacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/ProdutoAtributoBusca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/CategoriaSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/EnderecoSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/LocacaoSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/ProdutoSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/UsuarioSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/SQL/VendaSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/Model/Venda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/Color_icon_pink.svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/LOGO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/abajur.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/aranjo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/baseline_dashboard_black_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/baseline_dashboard_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/bolo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/bolof.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/boneco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/bonecoG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/bonecoGG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/caneta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/cartão.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/casal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/chaveiro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/clock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/contato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/dashboard-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/davi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/encomeda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/galeri.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/guir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/guirl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/higi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/lembracinhas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/menu.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/minion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/panetone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/sair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/talher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/tecido-chevron-rosa-2625-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/Img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/View/View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/imagens/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Fazer Cadastro/src/imagens/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/CadastroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/CadastroController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Control/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imagens/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imagens/img1.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +85,8 @@
       <workItem from="1574538949631" duration="887000" />
       <workItem from="1574703708736" duration="2363000" />
       <workItem from="1574706335806" duration="637000" />
+      <workItem from="1574707843611" duration="516000" />
+      <workItem from="1574708420503" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1574703148753</created>
