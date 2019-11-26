@@ -1,11 +1,18 @@
+import Model.Categoria;
+import Model.Usuario;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 
 
 public class Main extends Application {
+
+    private static Stage cena;
+    private static Scene login;
 
     @Override
     public void init() throws Exception {
@@ -18,13 +25,17 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage primary) throws Exception {
+        cena = primary;
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("View/View.fxml"));
+        Parent fxPrincipal= FXMLLoader.load(Main.class.getResource("View/View.fxml"));
+        cena.setTitle("ARTE'S DRI");
 
-        Scene scene = new Scene(loader.load());
-        stage.setScene(scene);
+        login = new Scene(fxPrincipal);
+        cena.setScene(login);
+        cena.show();
 
-        stage.show();
     }
+
+
 }
