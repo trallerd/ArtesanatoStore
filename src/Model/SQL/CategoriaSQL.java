@@ -40,7 +40,7 @@ public class CategoriaSQL {
         Connection connection = FabricaConexao.getConnection();
         ObservableList<Categoria> lista = FXCollections.observableArrayList();
 
-        PreparedStatement busca = connection.prepareStatement("select * from categoria");
+        PreparedStatement busca = connection.prepareStatement("select * from Categoria");
         ResultSet bC = busca.executeQuery();
 
         while (bC.next()){

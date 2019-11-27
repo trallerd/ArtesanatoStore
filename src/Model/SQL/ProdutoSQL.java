@@ -1,12 +1,15 @@
 package Model.SQL;
 
 import Model.*;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Observable;
@@ -55,7 +58,33 @@ public class ProdutoSQL {
     }
     public List<Produto> buscaCategoria (int id)throws SQLException{
         Connection connection = FabricaConexao.getConnection();
-        List<Produto> lista = dbAccess.query(connection,"SELECT * from Produto where id=?",id,new BeanListHandler<Produto>(Produto.class));
+        List<Produto> lista = dbAccess.query(connection,"SELECT * from Produto where categoria=?",id,new BeanListHandler<Produto>(Produto.class));
         return lista;
+    }
+    public ObservableList<Produto> listarProdutos() throws SQLException {
+        Connection connection = FabricaConexao.getConnection();
+        ObservableList<Produto> lista = FXCollections.observableArrayList();
+
+        PreparedStatement busca = connection.prepareStatement("select * from Produto");
+        ResultSet bC = busca.executeQuery();
+
+        while (bC.next()){
+            int id = bC.getInt("idProduto");
+            String nome = bC.getString("nome");
+            double valor = bC.getDouble("valor");
+            String descricao = bC.getString("descricao");
+            String tamanho = bC.getString("tamanho");
+            int categoria = bC.getInt("categoria");
+
+            Produto c = new Produto(id,nome,valor,descricao,tamanho,categoria);
+            lista.add(c);
+        }
+        connection.close();
+        busca.close();
+        bC.close();
+
+
+        return lista;
+
     }
 }

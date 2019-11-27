@@ -50,5 +50,10 @@ public class GerenciaProduto {
         produtos.addAll(lista);
         return produtos;
     }
+    public ObservableList listaProdutos() throws SQLException{
+        produtos.clear();
+        produtos.addAll(produtoSQL.listarProdutos());
+        return produtos;
+    }
 
 }
