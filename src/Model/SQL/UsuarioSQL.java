@@ -70,14 +70,42 @@ public class UsuarioSQL {
         bC.close();
         return false;
     }
-    public List<Usuario> listarVendas() throws SQLException {
+    public List<Usuario> listarUsuarios() throws SQLException {
         Connection connection = FabricaConexao.getConnection();
-        List<Usuario> lista = dbAccess.query(connection,"SELECT * FROM Venda ",
+        List<Usuario> lista = dbAccess.query(connection,"SELECT * FROM Usuario ",
                 new BeanListHandler<Usuario>(Usuario.class));
 
         connection.close();
 
         return lista;
+    }
+    public Usuario Login(Usuario u) throws SQLException {
+        Connection connection = FabricaConexao.getConnection();
+
+        String busca = "select * from Usuario where email=? and senha=?";
+        PreparedStatement psm = connection.prepareStatement(busca);
+        psm.setString(1, u.getEmail());
+        psm.setString(2, u.getSenha());
+
+        ResultSet bC = psm.executeQuery();
+
+        while (bC != null) {
+            Usuario user = null;
+            while (bC.next()) {
+                int id = bC.getInt("idUsuario");
+                String nome = bC.getString("nome");
+                String email = bC.getString("email");
+                String senha = bC.getString("senha");
+                boolean admStatus = bC.getBoolean("AdmStatus");
+
+                user = new Usuario(id, nome, email, senha,admStatus);
+            }
+            return user;
+        }
+        connection.close();
+        psm.close();
+        bC.close();
+        return null;
     }
 
 }

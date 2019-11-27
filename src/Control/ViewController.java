@@ -33,7 +33,7 @@ public class ViewController {
 
     public void galeria(ActionEvent actionEvent) throws IOException {
 
-        stage = (Stage) galeria.getScene().getWindow();
+        stage = (Stage) produto.getScene().getWindow();
         myNewScene = FXMLLoader.load(getClass().getResource("../View/Galeria.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);

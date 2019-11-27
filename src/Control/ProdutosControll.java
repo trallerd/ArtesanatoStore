@@ -42,6 +42,7 @@ public class ProdutosControll {
     }
 
     public void Filtrar(ActionEvent actionEvent) throws SQLException {
+
         Categoria categoria = (Categoria) categorias.getSelectionModel().getSelectedItem();
         tabelinha.setItems(GerenciaProduto.getInstance().buscaCategoria(categoria));
     }

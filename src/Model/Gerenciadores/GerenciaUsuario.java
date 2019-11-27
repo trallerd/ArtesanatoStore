@@ -41,4 +41,15 @@ public class GerenciaUsuario {
     public void verificaAdm(Usuario a) throws SQLException{
         usuarioSQL.verificarAdm(a);
     }
+    public Usuario verifica(Usuario u) throws SQLException{
+
+        boolean valido;
+        Usuario user = null;
+        user = usuarioSQL.Login(u);
+        if(user!=null){
+            return user;
+        }
+
+        return null;
+    }
 }
