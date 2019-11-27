@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Main extends Application {
 
     private static Stage cena;
-    private static Scene login;
+    private static Scene principal;
 
     @Override
     public void init() throws Exception {
@@ -31,8 +31,8 @@ public class Main extends Application {
         Parent fxPrincipal= FXMLLoader.load(Main.class.getResource("View/View.fxml"));
         cena.setTitle("ARTE'S DRI");
 
-        login = new Scene(fxPrincipal);
-        cena.setScene(login);
+        principal = new Scene(fxPrincipal);
+        cena.setScene(principal);
         cena.show();
 
     }

@@ -17,7 +17,7 @@
          <children>
             <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="67.0" mnemonicParsing="false" onAction="#produtos" style="-fx-background-color: transparent;" text="Produtos" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="produto" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="67.0" mnemonicParsing="false" onAction="#produtos" style="-fx-background-color: transparent;" text="Produtos" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
@@ -31,7 +31,7 @@
             </AnchorPane>
             <AnchorPane layoutX="283.0" layoutY="20.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#galeria" style="-fx-background-color: transparent;" text="Galeria" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="galeria" alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#galeria" style="-fx-background-color: transparent;" text="Galeria" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
@@ -45,7 +45,7 @@
             </AnchorPane>
             <AnchorPane layoutX="20.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="211.0">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="35.0" layoutY="51.0" mnemonicParsing="false" onAction="#logar" style="-fx-background-color: transparent;" text="logar" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="logar" alignment="BOTTOM_CENTER" layoutX="35.0" layoutY="51.0" mnemonicParsing="false" onAction="#logar" style="-fx-background-color: transparent;" text="logar" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
@@ -59,7 +59,7 @@
             </AnchorPane>
             <AnchorPane layoutX="283.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="283.0">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="54.0" mnemonicParsing="false" onAction="#contato" style="-fx-background-color: transparent;" text="Contate-nos" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="contato" alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="54.0" mnemonicParsing="false" onAction="#contato" style="-fx-background-color: transparent;" text="Contate-nos" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
@@ -73,7 +73,7 @@
             </AnchorPane>
             <AnchorPane layoutX="283.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#sair" style="-fx-background-color: transparent;" text="Sair" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Button fx:id="out" alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#sair" style="-fx-background-color: transparent;" text="Sair" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="27.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@Img/sair.png" />
@@ -83,7 +83,7 @@
             </AnchorPane>
             <AnchorPane layoutX="539.0" layoutY="26.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-color: #ea8685; -fx-background-radius: 20;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <Button alignment="BOTTOM_CENTER" layoutX="45.0" layoutY="67.0" mnemonicParsing="false" onAction="#encomendas" style="-fx-background-color: transparent;" text="Fazer Encomenda" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="encomendas" alignment="BOTTOM_CENTER" layoutX="45.0" layoutY="67.0" mnemonicParsing="false" onAction="#encomendas" style="-fx-background-color: transparent;" text="Fazer Encomenda" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
