@@ -56,10 +56,10 @@ public class CadastroController {
 
     public void cadastro(ActionEvent actionEvent) throws IOException {
         stage = (Stage) btentrar.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Cadastro.fxml"));
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/CadastrarUsuario.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
-        stage.setTitle("PRODUTOS");
+        stage.setTitle("CADASTRAR");
         stage.show();
     }
 

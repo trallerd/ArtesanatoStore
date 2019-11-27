@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Control/ControleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Cadastro.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/cadastro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/logar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/rosa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/VerificadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Img/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Img/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Img/wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Img/wpp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ProdutosControll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ProdutosControll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/UsuarioSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/UsuarioSQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarUsuario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Contato.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Contato.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Galeria.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Galeria.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Logar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Logar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Produtos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Produtos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/ProdutosVerificado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/ProdutosVerificado.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Control/CadastroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/CadastroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/ProdutosControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ProdutosControll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/SQL/UsuarioSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SQL/UsuarioSQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/CadastrarUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CadastrarUsuario.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Cadastro.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Contato.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Contato.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Galeria.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Galeria.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Logar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Logar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Produtos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Produtos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Encomendas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Encomendas.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,6 +107,8 @@
       <workItem from="1574707843611" duration="516000" />
       <workItem from="1574708420503" duration="160000" />
       <workItem from="1574876323759" duration="4070000" />
+      <workItem from="1574882180194" duration="926000" />
+      <workItem from="1574882102492" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1574703148753</created>
