@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class CadastroController {
+public class LoginController {
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -66,10 +66,10 @@ public class CadastroController {
 
     public void voltar(ActionEvent actionEvent) throws IOException {
         stage = (Stage) btentrar.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/View.fxml"));
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
-        stage.setTitle("ARTE'S DRI");
+        stage.setTitle("PRODUTOS");
         stage.show();
     }
 }

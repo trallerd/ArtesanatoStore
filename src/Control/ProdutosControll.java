@@ -25,6 +25,7 @@ public class ProdutosControll {
     @FXML public Button btFiltrar;
     @FXML public TextField tfProduto;
     @FXML public Button logar;
+    public Button btVoltar;
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -58,6 +59,15 @@ public class ProdutosControll {
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
         stage.setTitle("LOGAR");
+        stage.show();
+    }
+
+    public void Voltar(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) btVoltar.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/View.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("ARTE'S DRI");
         stage.show();
     }
 }

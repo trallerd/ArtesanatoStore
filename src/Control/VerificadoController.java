@@ -30,6 +30,7 @@ public class VerificadoController {
     public TableColumn descricao;
     public Button btFinaliza;
     public Button btVolta;
+    public Button btLogout;
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -66,6 +67,9 @@ public class VerificadoController {
         stage.show();
     }
 
+
+    public void Logout(ActionEvent actionEvent) {
+    }
 
     public void Comprar(ActionEvent actionEvent) {
     }
