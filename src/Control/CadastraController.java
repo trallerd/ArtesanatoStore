@@ -40,10 +40,11 @@ public class CadastraController {
         String nome = tfNome.getText();
         String email = tfEmail.getText();
         String senha = tfSenha.getText();
+        boolean AdmStatus = (false);
 
 
         try{
-            GerenciaUsuario.getInstance().cadastrarUsuario(nome,email,senha,false);
+            GerenciaUsuario.getInstance().cadastrarUsuario(nome,email,senha, AdmStatus);
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Cadastrado com Sucesso \n");
             alert.showAndWait();
         } catch (SQLException e) {
