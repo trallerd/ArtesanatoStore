@@ -37,4 +37,15 @@ public class VendaSQL {
 
         return lista;
     }
+    public List<Venda> listarVendasU(Usuario u) throws SQLException {
+        Connection connection = FabricaConexao.getConnection();
+        List<Venda> lista = dbAccess.query(connection,"SELECT * FROM Venda where usuario=? ",u.getIdUsuario(),
+                new BeanListHandler<Venda>(Venda.class));
+
+        connection.close();
+
+        return lista;
+    }
+
+
 }

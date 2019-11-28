@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Control/VerificadoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/face.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Img/wpp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/ContatoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/EncomendaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastroController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarUsuario.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Cadastro.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Contato.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Contato.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Encomendas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/Encomendas.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/ProdutosVerificado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/ProdutosVerificado.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Control/CadastroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/CadastroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CadastrarUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CadastrarUsuario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Cadastro.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/ProdutosControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ProdutosControll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/VerificadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/VerificadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SQL/VendaSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SQL/VendaSQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Contato.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Contato.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Encomendas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Encomendas.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Logar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Logar.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +33,9 @@
   <component name="FavoritesManager">
     <favorites_list name="ProjetoIntegrado" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,9 +48,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/View/Encomendas.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/EncomendaController.java" />
+        <option value="$PROJECT_DIR$/src/View/Contato.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/ContatoController.java" />
+        <option value="$PROJECT_DIR$/src/View/Logar.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/CadastroController.java" />
+        <option value="$PROJECT_DIR$/src/Model/SQL/VendaSQL.java" />
+        <option value="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java" />
+        <option value="$PROJECT_DIR$/src/View/ProdutosVerificado.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/VerificadoController.java" />
+        <option value="$PROJECT_DIR$/src/Control/ProdutosControll.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="335" />
+    <option name="y" value="-4" />
+    <option name="width" value="1105" />
+    <option name="height" value="904" />
+  </component>
   <component name="ProjectId" id="1SIUUSmvfOvJy3KW07xmDgqGuAJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Gerenciadores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -120,6 +208,38 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1377" height="912" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32958803" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32958803" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -129,6 +249,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -154,6 +280,142 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="try" />
     <option name="LAST_COMMIT_MESSAGE" value="try" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Produtos.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Encomendas.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" column="103" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ControleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/EncomendaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Contato.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="49" column="107" selection-start-line="49" selection-start-column="107" selection-end-line="49" selection-end-column="107" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ContatoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Logar.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="157" selection-start-line="9" selection-start-column="157" selection-end-line="9" selection-end-column="157" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/CadastroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/SQL/VendaSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ProdutosControll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/VerificadoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ProdutosVerificado.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="44" column="126" selection-start-line="44" selection-start-column="126" selection-end-line="44" selection-end-column="126" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

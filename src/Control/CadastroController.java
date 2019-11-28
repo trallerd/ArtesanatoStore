@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 
 import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -22,7 +23,7 @@ public class CadastroController {
     Parent myNewScene = null;
 
     @FXML public TextField tfEmail;
-    @FXML public TextField tfSenha;
+    @FXML public PasswordField tfSenha;
     public Button btentrar;
 
 
