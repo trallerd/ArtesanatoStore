@@ -23,12 +23,12 @@ public class GerenciaUsuario {
     }
 
 
-    public void cadastrarUsuario(String nome, String email, String senha, boolean AdmStatus) throws SQLException {
+    public void cadastrarUsuario(String nome, String email, String senha) throws SQLException {
         Usuario a = new Usuario();
         a.setNome(nome);
         a.setEmail(email);
         a.setSenha(senha);
-        a.setAdmStatus(AdmStatus);
+        //a.setAdmStatus(false);
 
         long id = usuarioSQL.inserirUsuario(a);
         a.setIdUsuario((int)id);

@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class LoginController {
+    public Button btVoltar;
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -39,12 +40,21 @@ public class LoginController {
             user = GerenciaUsuario.getInstance().verifica(u);
             if(user!=null){
                 ControleController.setUser(user);
-                stage = (Stage) btentrar.getScene().getWindow();
-                myNewScene = FXMLLoader.load(getClass().getResource("../View/ProdutosVerificado.fxml"));
-                Scene scene = new Scene(myNewScene);
-                stage.setScene(scene);
-                stage.setTitle("PRODUTOS");
-                stage.show();
+                if(!user.isAdmStatus()){
+                    stage = (Stage) btentrar.getScene().getWindow();
+                    myNewScene = FXMLLoader.load(getClass().getResource("../View/ProdutosVerificado.fxml"));
+                    Scene scene = new Scene(myNewScene);
+                    stage.setScene(scene);
+                    stage.setTitle("PRODUTOS");
+                    stage.show();
+                }else {
+                    stage = (Stage) btentrar.getScene().getWindow();
+                    myNewScene = FXMLLoader.load(getClass().getResource("../View/ViewAdm.fxml"));
+                    Scene scene = new Scene(myNewScene);
+                    stage.setScene(scene);
+                    stage.setTitle("ARTE'S DRI");
+                    stage.show();
+                }
             }else{
             Alert alert = new Alert(Alert.AlertType.ERROR,"Usuario não existe! \n");
             alert.showAndWait();
@@ -65,7 +75,7 @@ public class LoginController {
     }
 
     public void voltar(ActionEvent actionEvent) throws IOException {
-        stage = (Stage) btentrar.getScene().getWindow();
+        stage = (Stage) btVoltar.getScene().getWindow();
         myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);

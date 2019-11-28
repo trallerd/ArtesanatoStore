@@ -17,6 +17,7 @@ public class ViewController {
     @FXML public Button contato;
     @FXML public Button out;
     @FXML public Button encomendas;
+    public Button adm;
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -62,22 +63,28 @@ public class ViewController {
     }
 
     public void sair(ActionEvent actionEvent) {
+        ControleController.setUser(null);
         System.exit(0);
     }
 
     public void encomendas(ActionEvent actionEvent) throws IOException {
 
         stage = (Stage) encomendas.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Encomendas.fxml"));
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/Locacao.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
-        stage.setTitle("ENCOMENDA");
+        stage.setTitle("LOCAÇÃO");
         stage.show();
     }
 
 
-
-
-
+    public void loginAdm(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) adm.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/Logar.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("LOGAR");
+        stage.show();
+    }
 }
 

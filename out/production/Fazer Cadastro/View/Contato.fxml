@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="393.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ContatoController">
+<AnchorPane prefHeight="393.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ContatoController">
    <children>
       <ImageView fitHeight="469.0" fitWidth="697.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-119.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-97.0" AnchorPane.topAnchor="0.0">
          <image>
@@ -32,17 +31,17 @@
                   <Image url="@Img/instagram.png" />
                </image>
             </ImageView>
-            <Label layoutX="200.0" layoutY="31.0" text="\@ateliedoevadri" textFill="WHITE">
+            <Label layoutX="200.0" layoutY="31.0" text="\@ateliedoevadri" textFill="WHITE" AnchorPane.topAnchor="45.0">
                <font>
                   <Font name="Chandas" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="200.0" layoutY="89.0" text="\@ateliedoevadri" textFill="WHITE">
+            <Label layoutX="200.0" layoutY="89.0" text="\@ateliedoevadri" textFill="WHITE" AnchorPane.topAnchor="105.0">
                <font>
                   <Font name="Chandas" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="200.0" layoutY="148.0" text="(41)9999-9999" textFill="WHITE">
+            <Label layoutX="200.0" layoutY="148.0" text="(41)9999-9999" textFill="WHITE" AnchorPane.topAnchor="165.0">
                <font>
                   <Font name="Chandas" size="24.0" />
                </font>

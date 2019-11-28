@@ -24,7 +24,7 @@ public class UsuarioSQL {
 
     public long inserirUsuario(Usuario u) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
-        long id = dbAccess.insert(connection, "INSERT INTO Usuario(nome,email,senha,AdmStatus) VALUES (?,?,?)",
+        long id = dbAccess.insert(connection, "INSERT INTO Usuario(nome,email,senha,AdmStatus) VALUES (?,?,?,?)",
                 new ScalarHandler<Integer>(), u.getNome(), u.getEmail(), u.getSenha()).longValue();
         connection.close();
 

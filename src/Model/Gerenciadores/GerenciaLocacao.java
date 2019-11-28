@@ -26,12 +26,11 @@ public class GerenciaLocacao {
     }
 
 
-    public void cadastrarLocacao(String dataLocacao, String dataEntrega, double valor, Produto produto, Usuario usuario) throws SQLException {
+    public void cadastrarLocacao(String dataLocacao, String dataEntrega,  int produto, Usuario usuario) throws SQLException {
         Locacao a = new Locacao();
         a.setDataLocacao(dataLocacao);
         a.setDataEntrega(dataEntrega);
-        a.setValor(valor);
-        a.setProduto(produto.getIdProduto());
+        a.setProduto(produto);
         a.setUsuario(usuario.getIdUsuario());
 
 

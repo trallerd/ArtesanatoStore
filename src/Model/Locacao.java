@@ -6,7 +6,6 @@ public class Locacao implements Serializable {
     private int idLocacao;
     private String dataLocacao;
     private String dataEntrega;
-    private double valor;
     private int produto;
     private int usuario;
 
@@ -14,11 +13,10 @@ public class Locacao implements Serializable {
 
     }
 
-    public Locacao(int idLocacao, String dataLocacao, String dataEntrega, double valor, int produto, int usuario) {
+    public Locacao(int idLocacao, String dataLocacao, String dataEntrega,  int produto, int usuario) {
         this.idLocacao = idLocacao;
         this.dataLocacao = dataLocacao;
         this.dataEntrega = dataEntrega;
-        this.valor = valor;
         this.produto = produto;
         this.usuario = usuario;
     }
@@ -45,14 +43,6 @@ public class Locacao implements Serializable {
 
     public void setDataEntrega(String dataEntrega) {
         this.dataEntrega = dataEntrega;
-    }
-
-    public double getValor() {
-        return valor;
-    }
-
-    public void setValor(double valor) {
-        this.valor = valor;
     }
 
     public int getProduto() {

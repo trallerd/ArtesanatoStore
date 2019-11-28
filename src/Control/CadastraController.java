@@ -29,10 +29,10 @@ public class CadastraController {
 
     public void voltar(ActionEvent actionEvent) throws IOException {
         stage = (Stage) btVoltar.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/Logar.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
-        stage.setTitle("PRODUTOS");
+        stage.setTitle("LOGAR");
         stage.show();
     }
 
@@ -40,11 +40,10 @@ public class CadastraController {
         String nome = tfNome.getText();
         String email = tfEmail.getText();
         String senha = tfSenha.getText();
-        boolean AdmStatus = (false);
 
 
         try{
-            GerenciaUsuario.getInstance().cadastrarUsuario(nome,email,senha, AdmStatus);
+            GerenciaUsuario.getInstance().cadastrarUsuario(nome,email,senha);
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Cadastrado com Sucesso \n");
             alert.showAndWait();
         } catch (SQLException e) {

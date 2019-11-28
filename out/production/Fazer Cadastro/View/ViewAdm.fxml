@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ViewAdmController">
+        <children>
+            <ImageView fitHeight="77.0" fitWidth="251.0" layoutX="275.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="423.35384368896484" AnchorPane.leftAnchor="275.0" AnchorPane.rightAnchor="274.0" AnchorPane.topAnchor="11.0">
+                <image>
+                    <Image url="@Img/logo.png" />
+                </image>
+            </ImageView>
+            <AnchorPane layoutX="9.0" layoutY="77.0" prefHeight="390.0" prefWidth="758.0" style="-fx-background-color: pink; -fx-background-radius: 20;" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="77.0">
+                <children>
+                    <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+                        <children>
+                            <Button fx:id="cadastrarP" alignment="BOTTOM_CENTER" layoutX="43.0" layoutY="67.0" mnemonicParsing="false" onAction="#cadastraP" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Cadastrar Produto" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <font>
+                                    <Font name="Chandas" size="14.0" />
+                                </font>
+                            </Button>
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="37.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@Img/menu.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane layoutX="283.0" layoutY="20.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;">
+                        <children>
+                            <Button fx:id="relatorioVenda" alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#relatorioVenda" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Relatorio de Vendas" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <font>
+                                    <Font name="Chandas" size="14.0" />
+                                </font>
+                            </Button>
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="35.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="30.0">
+                                <image>
+                                    <Image url="@Img/venda.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane layoutX="20.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="211.0">
+                        <children>
+                            <Button fx:id="relatorioP" alignment="BOTTOM_CENTER" layoutX="35.0" layoutY="51.0" mnemonicParsing="false" onAction="#relatorioP" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Relatrio de Produto" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <font>
+                                    <Font name="Chandas" size="14.0" />
+                                </font>
+                            </Button>
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@Img/menu.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane layoutX="283.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="283.0">
+                        <children>
+                            <Button fx:id="relatorioUsuario" alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="54.0" mnemonicParsing="false" onAction="#relatorioUsuario" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Relatrio de Usuarios" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <font>
+                                    <Font name="Chandas" size="14.0" />
+                                </font>
+                            </Button>
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="35.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@Img/user.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane layoutX="283.0" layoutY="211.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
+                        <children>
+                            <Button fx:id="out" alignment="BOTTOM_CENTER" layoutX="54.0" layoutY="67.0" mnemonicParsing="false" onAction="#sair" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Sair" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="27.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@Img/sair.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane layoutX="539.0" layoutY="26.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                        <children>
+                            <Button fx:id="encomendas" alignment="BOTTOM_CENTER" layoutX="45.0" layoutY="67.0" mnemonicParsing="false" onAction="#encomendas" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Ver Encomenda" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <font>
+                                    <Font name="Chandas" size="14.0" />
+                                </font>
+                            </Button>
+                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="35.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@Img/encomeda.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </AnchorPane>
+                </children>
+            </AnchorPane>
+        </children>
+    </AnchorPane>

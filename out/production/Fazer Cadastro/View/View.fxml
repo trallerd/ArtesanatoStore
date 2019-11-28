@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ViewController">
    <children>
       <ImageView fitHeight="77.0" fitWidth="251.0" layoutX="275.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="423.35384368896484" AnchorPane.leftAnchor="275.0" AnchorPane.rightAnchor="274.0" AnchorPane.topAnchor="11.0">
          <image>
@@ -83,7 +83,7 @@
             </AnchorPane>
             <AnchorPane layoutX="539.0" layoutY="26.0" prefHeight="159.0" prefWidth="169.0" style="-fx-background-radius: 20;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <Button fx:id="encomendas" alignment="BOTTOM_CENTER" layoutX="45.0" layoutY="67.0" mnemonicParsing="false" onAction="#encomendas" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Fazer Encomenda" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="encomendas" alignment="BOTTOM_CENTER" layoutX="45.0" layoutY="67.0" mnemonicParsing="false" onAction="#encomendas" style="-fx-background-color: transparent; -fx-border-color: #bdc3c7; -fx-border-radius: 20;" text="Fazer Locaçao" textFill="#c44569" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <font>
                         <Font name="Chandas" size="14.0" />
                      </font>
@@ -97,5 +97,6 @@
             </AnchorPane>
          </children>
       </AnchorPane>
+      <Button fx:id="adm" mnemonicParsing="false" onAction="#loginAdm" style="-fx-background-color: transparent;" text="Logar como Administrador" textFill="#2200ff" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
    </children>
 </AnchorPane>

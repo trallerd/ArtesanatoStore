@@ -21,8 +21,8 @@ public class LocacaoSQL {
 
     public long locar(Locacao l) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
-        long id = dbAccess.insert(connection,"INSERT INTO Locacao(dataLocacao,dataEntrega,valor,produto,usuario) VALUES (?,?,?,?,?)",
-                new ScalarHandler<Integer>(),l.getDataLocacao(),l.getDataEntrega(),l.getValor(),l.getProduto(),l.getUsuario()).longValue();
+        long id = dbAccess.insert(connection,"INSERT INTO Locacao(dataLocacao,dateEntrega,produto,usuario) VALUES (?,?,?,?)",
+                new ScalarHandler<Integer>(),l.getDataLocacao(),l.getDataEntrega(),l.getProduto(),l.getUsuario()).longValue();
         connection.close();
 
         return id;
