@@ -11,6 +11,7 @@ import java.io.IOException;
 
 public class GaleriaController {
     public Button btVoltar;
+    public Button btEnviarFoto;
     Stage stage = null;
     Parent myNewScene = null;
 
@@ -21,5 +22,8 @@ public class GaleriaController {
         stage.setScene(scene);
         stage.setTitle("ARTE'S DRI");
         stage.show();
+    }
+
+    public void EnviaFoto(ActionEvent actionEvent) {
     }
 }

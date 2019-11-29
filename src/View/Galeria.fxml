@@ -53,5 +53,6 @@
             <Image url="@Img/logo.png" />
          </image>
       </ImageView>
+      <Button fx:id="btEnviarFoto" mnemonicParsing="false" onAction="#EnviaFoto" prefWidth="200.0" style="-fx-background-color: #2d3436;" text="Enviar Foto" textFill="WHITE" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="10.0" />
    </children>
 </AnchorPane>
