@@ -30,7 +30,6 @@ public class LocacaoController {
 
 
     public void encomenda(ActionEvent actionEvent) throws IOException {
-        if(ControleController.getUser()!=null){
             String DataLocacao = dataLocacao.getEditor().getText();
             String DataEntrega = dataEntrega.getEditor().getText();
             System.out.println(DataEntrega);
@@ -46,17 +45,6 @@ public class LocacaoController {
                 alert.showAndWait();
                 System.out.println(e.getMessage());
             }
-
-        }else{
-            Alert alert = new Alert(Alert.AlertType.ERROR,"Faça o login por favor \n");
-            alert.showAndWait();
-            stage = (Stage) encomenda.getScene().getWindow();
-            myNewScene = FXMLLoader.load(getClass().getResource("../View/Logar.fxml"));
-            Scene scene = new Scene(myNewScene);
-            stage.setScene(scene);
-            stage.setTitle("LOGAR");
-            stage.show();
-        }
 
 
     }

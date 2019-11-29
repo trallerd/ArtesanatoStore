@@ -42,10 +42,10 @@ public class LoginController {
                 ControleController.setUser(user);
                 if(!user.isAdmStatus()){
                     stage = (Stage) btentrar.getScene().getWindow();
-                    myNewScene = FXMLLoader.load(getClass().getResource("../View/ProdutosVerificado.fxml"));
+                    myNewScene = FXMLLoader.load(getClass().getResource("../View/View.fxml"));
                     Scene scene = new Scene(myNewScene);
                     stage.setScene(scene);
-                    stage.setTitle("PRODUTOS");
+                    stage.setTitle("ARTE'S DRI");
                     stage.show();
                 }else {
                     stage = (Stage) btentrar.getScene().getWindow();

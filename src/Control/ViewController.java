@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
@@ -23,13 +24,23 @@ public class ViewController {
 
 
     public void produtos(ActionEvent actionEvent) throws IOException {
+        if(ControleController.getUser()==null){
+            stage = (Stage) produto.getScene().getWindow();
+            myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
+            Scene scene = new Scene(myNewScene);
+            stage.setScene(scene);
+            stage.setTitle("PRODUTOS");
+            stage.show();
+        }else{
+            stage = (Stage) produto.getScene().getWindow();
+            myNewScene = FXMLLoader.load(getClass().getResource("../View/ProdutosVerificado.fxml"));
+            Scene scene = new Scene(myNewScene);
+            stage.setScene(scene);
+            stage.setTitle("PRODUTOS");
+            stage.show();
+        }
 
-        stage = (Stage) produto.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
-        Scene scene = new Scene(myNewScene);
-        stage.setScene(scene);
-        stage.setTitle("PRODUTOS");
-        stage.show();
+
     }
 
     public void galeria(ActionEvent actionEvent) throws IOException {
@@ -44,12 +55,20 @@ public class ViewController {
 
     public void logar(ActionEvent actionEvent) throws IOException {
 
-        stage = (Stage) logar.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Logar.fxml"));
-        Scene scene = new Scene(myNewScene);
-        stage.setScene(scene);
-        stage.setTitle("LOGAR");
-        stage.show();
+        if(ControleController.getUser()==null){
+            stage = (Stage) logar.getScene().getWindow();
+            myNewScene = FXMLLoader.load(getClass().getResource("../View/Logar.fxml"));
+            Scene scene = new Scene(myNewScene);
+            stage.setScene(scene);
+            stage.setTitle("LOGAR");
+            stage.show();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR,"Você já esta logado!! \n");
+            alert.showAndWait();
+        }
+
+
     }
 
     public void contato(ActionEvent actionEvent) throws IOException {
@@ -68,13 +87,18 @@ public class ViewController {
     }
 
     public void encomendas(ActionEvent actionEvent) throws IOException {
+        if(ControleController.getUser()!=null){
+            stage = (Stage) encomendas.getScene().getWindow();
+            myNewScene = FXMLLoader.load(getClass().getResource("../View/Locacao.fxml"));
+            Scene scene = new Scene(myNewScene);
+            stage.setScene(scene);
+            stage.setTitle("LOCAÇÃO");
+            stage.show();
+        }else{
+            Alert alert = new Alert(Alert.AlertType.ERROR,"Você precisa estar Logado!! \n");
+            alert.showAndWait();
+        }
 
-        stage = (Stage) encomendas.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/Locacao.fxml"));
-        Scene scene = new Scene(myNewScene);
-        stage.setScene(scene);
-        stage.setTitle("LOCAÇÃO");
-        stage.show();
     }
 
 

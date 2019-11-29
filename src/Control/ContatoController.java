@@ -22,21 +22,12 @@ public class ContatoController {
     public void Voltar(ActionEvent actionEvent) throws IOException {
         try{
 
-            if(ControleController.getUser()!=null){
-                stage = (Stage) btVoltar.getScene().getWindow();
-                myNewScene = FXMLLoader.load(getClass().getResource("../View/ProdutosVerificado.fxml"));
-                Scene scene = new Scene(myNewScene);
-                stage.setScene(scene);
-                stage.setTitle("PRODUTOS");
-                stage.show();
-            }else{
-                stage = (Stage) btVoltar.getScene().getWindow();
-                myNewScene = FXMLLoader.load(getClass().getResource("../View/Produtos.fxml"));
-                Scene scene = new Scene(myNewScene);
-                stage.setScene(scene);
-                stage.setTitle("PRODUTOS");
-                stage.show();
-            }
+            stage = (Stage) btVoltar.getScene().getWindow();
+            myNewScene = FXMLLoader.load(getClass().getResource("../View/View.fxml"));
+            Scene scene = new Scene(myNewScene);
+            stage.setScene(scene);
+            stage.setTitle("ARTE'S DRI");
+            stage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }
