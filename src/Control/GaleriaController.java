@@ -6,7 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class GaleriaController {
@@ -24,6 +23,14 @@ public class GaleriaController {
         stage.show();
     }
 
-    public void EnviaFoto(ActionEvent actionEvent) {
+    public void EnviaFoto(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) btEnviarFoto.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/CarregaFoto.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("ENVIAR FOTO");
+        stage.show();
+
+
     }
 }

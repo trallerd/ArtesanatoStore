@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.FotoController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@Img/rosa.png" />
+               </image>
+            </ImageView>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="btAbrir" mnemonicParsing="false" onAction="#Abrir" style="-fx-background-color: #2d3436;" text="Abrir" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="180.0" />
+                  <ImageView fx:id="imgView" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="130.0" />
+                  <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#Salvar" style="-fx-background-color: #2d3436;" text="Salvar Foto" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="210.0" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="5.0">
+                     <image>
+                        <Image url="@Img/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btVoltar" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: transparent;" text="Voltar" textFill="#2200ff" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="350.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
