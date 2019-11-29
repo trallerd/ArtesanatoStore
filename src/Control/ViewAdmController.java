@@ -28,13 +28,31 @@ public class ViewAdmController {
         stage.show();
     }
 
-    public void relatorioVenda(ActionEvent actionEvent) {
+    public void relatorioVenda(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) cadastrarP.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/RelatorioVenda.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("RELATORIO DE VENDA");
+        stage.show();
     }
 
-    public void relatorioP(ActionEvent actionEvent) {
+    public void relatorioP(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) cadastrarP.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/RelatorioProduto.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("RELATORIO DE PRODUTOS");
+        stage.show();
     }
 
-    public void relatorioUsuario(ActionEvent actionEvent) {
+    public void relatorioUsuario(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) cadastrarP.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/RelatorioUsuario.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("RELATORIO DE USUARIOS");
+        stage.show();
     }
 
     public void sair(ActionEvent actionEvent) {
@@ -42,6 +60,12 @@ public class ViewAdmController {
         System.exit(0);
     }
 
-    public void encomendas(ActionEvent actionEvent) {
+    public void encomendas(ActionEvent actionEvent) throws IOException {
+        stage = (Stage) cadastrarP.getScene().getWindow();
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/RelatorioEncomendas.fxml"));
+        Scene scene = new Scene(myNewScene);
+        stage.setScene(scene);
+        stage.setTitle("RELATORIO DE ENCOMENDAS");
+        stage.show();
     }
 }

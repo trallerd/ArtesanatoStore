@@ -27,6 +27,8 @@
                   <Image url="@Img/logo.png" />
                </image>
             </ImageView>
+            <Button fx:id="btVoltar" layoutX="210.0" layoutY="400.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #2d3436;" text="Voltar" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="440.0" />
+            <Button fx:id="btCadastrarCat" mnemonicParsing="false" onAction="#CadastrarCat" style="-fx-background-color: transparent;" text="cadastrar categoria" textFill="#3300ff" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="350.0" />
          </children>
       </AnchorPane>
    </children>

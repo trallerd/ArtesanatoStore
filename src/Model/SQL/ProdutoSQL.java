@@ -7,6 +7,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+import java.math.BigInteger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -27,7 +28,7 @@ public class ProdutoSQL {
     public long cadastrarProduto(Produto p) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
         long id = dbAccess.insert(connection,"INSERT INTO Produto(nome,valor,descricao,tamanho,categoria) VALUES (?,?,?,?,?)",
-                new ScalarHandler<Integer>(),p.getNome(),p.getValor(),p.getDescricao(),p.getTamanho(),p.getCategoria()).longValue();
+                new ScalarHandler<BigInteger>(),p.getNome(),p.getValor(),p.getDescricao(),p.getTamanho(),p.getCategoria()).longValue();
         connection.close();
         return id;
     }

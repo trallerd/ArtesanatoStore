@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.RPController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <image>
+                        <Image url="@Img/rosa.png" />
+                    </image>
+                </ImageView>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="680.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <ComboBox fx:id="categorias" prefWidth="150.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="20.0" />
+                        <Button fx:id="btFiltrar" mnemonicParsing="false" onAction="#Filtrar" text="Filtrar" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="60.0">
+                            <font>
+                                <Font name="FreeMono Bold Oblique" size="15.0" />
+                            </font>
+                        </Button>
+                        <TextField fx:id="tfProduto" onKeyPressed="#TextFilter" promptText="Buscar Produto" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="130.0">
+                            <font>
+                                <Font name="FreeMono" size="15.0" />
+                            </font>
+                        </TextField>
+                        <Button fx:id="btVoltar" layoutX="14.0" layoutY="560.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: tranparent;" text="Voltar" textFill="#2c02ff" />
+                    </children>
+                </AnchorPane>
+                <TableView fx:id="tabelinha" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                    <columns>
+                        <TableColumn fx:id="nome" minWidth="250.0" prefWidth="100.0" text="Nome" />
+                        <TableColumn fx:id="descricao" minWidth="310.0" prefWidth="100.0" text="Descriçao" />
+                        <TableColumn fx:id="valor" minWidth="100.0" prefWidth="100.0" text="Valor" />
+                    </columns>
+                </TableView>
+            <Button fx:id="btPDF" mnemonicParsing="false" onAction="#gerarPDF" style="-fx-background-color: #2d3436;" text="Gerar PDF" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="795.0" AnchorPane.topAnchor="200.0" />
+            </children>
+        </AnchorPane>
+    </children>
+
+</AnchorPane>

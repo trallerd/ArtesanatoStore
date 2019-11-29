@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Control/CadastrarCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/REController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/RPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/RUController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Control/RVController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/PDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/CadastrarCat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RelatorioEncomendas.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RelatorioProduto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RelatorioUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RelatorioVenda.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ContatoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ContatoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ContatoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/FotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/FotoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/LocacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/LocacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fazer Cadastro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fazer Cadastro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastrarProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/CadastrarProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewAdmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/ViewAdmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/CategoriaSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/CategoriaSQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/ProdutoSQL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/ProdutoSQL$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/ProdutoSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/SQL/ProdutoSQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarProduto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/CadastrarProduto.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/CadastrarProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/CadastrarProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/ViewAdmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ViewAdmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SQL/CategoriaSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SQL/CategoriaSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SQL/ProdutoSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SQL/ProdutoSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/CadastrarProduto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CadastrarProduto.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Control/ContatoController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/PDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-230">
+              <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,19 +54,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Control/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/Control/RPController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="44" column="85" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Control/ViewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+            <state relative-caret-position="408">
+              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,29 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Control/ProdutosControll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="270">
+              <caret line="29" column="29" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Control/FotoController.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaCategoria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="252">
+              <caret line="23" selection-start-line="13" selection-start-column="3" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -124,9 +123,6 @@
         <option value="$PROJECT_DIR$/src/Model/SQL/LocacaoSQL.java" />
         <option value="$PROJECT_DIR$/src/View/Contato.fxml" />
         <option value="$PROJECT_DIR$/src/View/Img/CadastrarProduto.fxml" />
-        <option value="$PROJECT_DIR$/src/Control/ViewAdmController.java" />
-        <option value="$PROJECT_DIR$/src/View/CadastrarProduto.fxml" />
-        <option value="$PROJECT_DIR$/src/Control/CadastrarProdutoController.java" />
         <option value="$PROJECT_DIR$/src/View/Galeria.fxml" />
         <option value="$PROJECT_DIR$/src/View/CarregaFoto.fxml" />
         <option value="$PROJECT_DIR$/src/Control/GaleriaController.java" />
@@ -138,6 +134,19 @@
         <option value="$PROJECT_DIR$/src/Control/ContatoController.java" />
         <option value="$PROJECT_DIR$/src/Control/ViewController.java" />
         <option value="$PROJECT_DIR$/src/View/View.fxml" />
+        <option value="$PROJECT_DIR$/src/Model/SQL/ProdutoSQL.java" />
+        <option value="$PROJECT_DIR$/src/View/CadastrarProduto.fxml" />
+        <option value="$PROJECT_DIR$/src/View/CadastrarCat.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/CadastrarCat.java" />
+        <option value="$PROJECT_DIR$/src/Control/CadastrarProdutoController.java" />
+        <option value="$PROJECT_DIR$/src/Model/SQL/CategoriaSQL.java" />
+        <option value="$PROJECT_DIR$/src/View/RelatorioVenda.fxml" />
+        <option value="$PROJECT_DIR$/src/Control/ViewAdmController.java" />
+        <option value="$PROJECT_DIR$/src/View/RelatorioUsuario.fxml" />
+        <option value="$PROJECT_DIR$/src/View/RelatorioEncomendas.fxml" />
+        <option value="$PROJECT_DIR$/src/View/RelatorioProduto.fxml" />
+        <option value="$PROJECT_DIR$/src/Model/PDF.java" />
+        <option value="$PROJECT_DIR$/src/Control/RPController.java" />
       </list>
     </option>
   </component>
@@ -179,6 +188,19 @@
               <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Gerenciadores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArtesanatoStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArtesanatoStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -193,7 +215,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exemplo_imagens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/svg-7.1.7.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -268,7 +290,7 @@
     <frame x="61" y="-4" width="1859" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25868726" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25868726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,34 +361,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Control/ControleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Produtos.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="34" column="114" lean-forward="true" selection-start-line="34" selection-start-column="114" selection-end-line="34" selection-end-column="114" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/ProdutosVerificado.fxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,13 +440,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/VerificadoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="38" column="67" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/SQL/UsuarioSQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -491,41 +484,6 @@
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/Img/CadastrarProduto.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Control/ViewAdmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/CadastrarProduto.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/CadastrarProdutoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/Galeria.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="740">
@@ -533,24 +491,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/CarregaFoto.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/CadastraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="51" column="47" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/SQL/ImagemSQL.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -573,27 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Control/GaleriaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="31" column="21" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/FotoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -607,13 +530,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Control/ProdutosControll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
@@ -642,10 +558,214 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/FotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/VerificadoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="55" column="91" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Control/ViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+        <state relative-caret-position="137">
+          <caret line="76" column="12" selection-start-line="75" selection-start-column="7" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/SQL/ProdutoSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/CadastraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="51" column="47" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="51" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/CadastrarProduto.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/CadastrarProdutoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/SQL/CategoriaSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/RVController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/CadastrarCat.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/CadastrarCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="90" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/RelatorioVenda.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/RUController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/RelatorioUsuario.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/REController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/RelatorioEncomendas.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ViewAdmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Produtos.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/CarregaFoto.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/RelatorioProduto.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="44" column="76" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/ProdutosControll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="29" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaCategoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" selection-start-line="13" selection-start-column="3" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Control/RPController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

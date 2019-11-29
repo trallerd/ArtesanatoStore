@@ -7,6 +7,7 @@ import javafx.collections.ObservableList;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+import java.math.BigInteger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -25,7 +26,7 @@ public class CategoriaSQL {
     public long addCategoria(Categoria t) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
         long id = dbAccess.insert(connection,"INSERT INTO Categoria(nome) VALUES (?)",
-                new ScalarHandler<Integer>(),t.getNome()).longValue();
+                new ScalarHandler<BigInteger>(),t.getNome()).longValue();
         connection.close();
 
         return id;
