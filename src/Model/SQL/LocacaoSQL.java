@@ -5,6 +5,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+import java.math.BigInteger;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
@@ -22,7 +23,7 @@ public class LocacaoSQL {
     public long locar(Locacao l) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
         long id = dbAccess.insert(connection,"INSERT INTO Locacao(dataLocacao,dateEntrega,produto,usuario) VALUES (?,?,?,?)",
-                new ScalarHandler<Integer>(),l.getDataLocacao(),l.getDataEntrega(),l.getProduto(),l.getUsuario()).longValue();
+                new ScalarHandler<BigInteger>(),l.getDataLocacao(),l.getDataEntrega(),l.getProduto(),l.getUsuario()).longValue();
         connection.close();
 
         return id;

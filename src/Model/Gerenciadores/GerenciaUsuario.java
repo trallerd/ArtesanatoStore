@@ -28,7 +28,7 @@ public class GerenciaUsuario {
         a.setNome(nome);
         a.setEmail(email);
         a.setSenha(senha);
-        //a.setAdmStatus(false);
+
 
         long id = usuarioSQL.inserirUsuario(a);
         a.setIdUsuario((int)id);

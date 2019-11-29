@@ -10,6 +10,7 @@ public class ViewAdmController {
     public Button relatorioUsuario;
     public Button out;
     public Button encomendas;
+    
 
     public void cadastraP(ActionEvent actionEvent) {
     }

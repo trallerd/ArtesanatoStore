@@ -14,7 +14,7 @@
             <Image url="@Img/wallpaper.jpg" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="68.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6F1E51; -fx-background-radius: 30;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+      <AnchorPane layoutX="68.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-background-radius: 30;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
          <children>
             <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="116.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -46,7 +46,10 @@
                   <Font name="Chandas" size="24.0" />
                </font>
             </Label>
-            <Button fx:id="btVoltar" layoutX="237.0" layoutY="234.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: transparent;" text="Voltar" textFill="#3b0dd3" />
+            <Button fx:id="btVoltar" layoutX="237.0" layoutY="234.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: transparent;" text="Voltar" textFill="WHITE">
+               <font>
+                  <Font name="FreeMono" size="23.0" />
+               </font></Button>
          </children>
       </AnchorPane>
    </children>
