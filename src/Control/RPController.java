@@ -3,8 +3,7 @@ package Control;
 import Model.Categoria;
 import Model.Gerenciadores.GerenciaCategoria;
 import Model.Gerenciadores.GerenciaProduto;
-import Model.PDF;
-import Model.Produto;
+import Model.PDFProduto;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -57,7 +56,7 @@ public class RPController {
 
     public void Voltar(ActionEvent actionEvent) throws IOException {
         stage = (Stage) btVoltar.getScene().getWindow();
-        myNewScene = FXMLLoader.load(getClass().getResource("../View/View.fxml"));
+        myNewScene = FXMLLoader.load(getClass().getResource("../View/ViewAdm.fxml"));
         Scene scene = new Scene(myNewScene);
         stage.setScene(scene);
         stage.setTitle("ARTE'S DRI");
@@ -65,7 +64,7 @@ public class RPController {
     }
 
     public void gerarPDF(ActionEvent av) {
-        PDF  geradorPDF = new PDF();
+        PDFProduto geradorPDF = new PDFProduto();
 
         Button bt = (Button) av.getSource();
 

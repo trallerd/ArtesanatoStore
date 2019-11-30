@@ -6,9 +6,38 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="Control.RUController"
             prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <image>
+                        <Image url="@Img/rosa.png" />
+                    </image>
+                </ImageView>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="680.0" AnchorPane.topAnchor="0.0">
+                    <children>
+
+
+                        <Button fx:id="btVoltar" layoutX="14.0" layoutY="560.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: tranparent;" text="Voltar" textFill="#2c02ff" />
+                    </children>
+                </AnchorPane>
+                <TableView fx:id="tabelinha" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                    <columns>
+                        <TableColumn fx:id="nome" minWidth="250.0" prefWidth="100.0" text="Nome" />
+                        <TableColumn fx:id="Email" minWidth="310.0" prefWidth="100.0" text="Email" />
+                    </columns>
+                </TableView>
+                <Button fx:id="btPDF" mnemonicParsing="false" onAction="#gerarPDF" style="-fx-background-color: #2d3436;" text="Gerar PDF" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="795.0" AnchorPane.topAnchor="20.0" />
+            </children>
+        </AnchorPane>
+    </children>
+
 
 </AnchorPane>

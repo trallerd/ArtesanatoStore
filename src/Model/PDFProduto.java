@@ -1,9 +1,7 @@
 package Model;
 
-import Model.Gerenciadores.GerenciaCategoria;
 import Model.Gerenciadores.GerenciaProduto;
 import com.itextpdf.io.font.constants.StandardFonts;
-import com.itextpdf.io.image.ImageDataFactory;
 import com.itextpdf.kernel.colors.ColorConstants;
 import com.itextpdf.kernel.font.PdfFont;
 import com.itextpdf.kernel.font.PdfFontFactory;
@@ -12,22 +10,20 @@ import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.borders.SolidBorder;
 import com.itextpdf.layout.element.*;
-import com.itextpdf.layout.property.ListNumberingType;
 import com.itextpdf.layout.property.TextAlignment;
 import com.itextpdf.layout.property.UnitValue;
-import javafx.collections.FXCollections;
 
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class PDF {
+public class PDFProduto {
 
 
-    private static PDF instance = new PDF();
+    private static PDFProduto instance = new PDFProduto();
 
 
 
-    public static PDF getInstance(){
+    public static PDFProduto getInstance(){
         return instance;
     }
 
@@ -58,18 +54,8 @@ public class PDF {
                 //cria o documento
                 Document document = abreDocumento(arq);
 
-                //carrega uma imagem da pasta resources/images
-                Image java = new Image(ImageDataFactory.create(getClass().getResource("/images/java.jpeg")));
-
-                //diminui o tamanho da imagem em 50% na horizontal e 50% na vertical
-                java.scale(0.5f,0.5f);
-
-                //inclui um parágrafo e no parágrafo é inserida a imagem
-                document.add(new Paragraph("").add(java));
-
-
                 //coloca um parágrafo de cabeçalho, com alinhamento centralizado
-                Paragraph paragrafo = new Paragraph("Pessoas Cadastradas");
+                Paragraph paragrafo = new Paragraph("Produtos Cadastrados");
                 //alinha contéudo do parágrafo no centro da página
                 paragrafo.setTextAlignment(TextAlignment.CENTER);
 
@@ -81,12 +67,12 @@ public class PDF {
 
 
                 //cria a tabela
-                Table table = new Table(UnitValue.createPercentArray(new float[]{50, 30, 20}))
+                Table table = new Table(UnitValue.createPercentArray(new float[]{10, 20, 10,10}))
                         .useAllAvailableWidth();
 
 
                 //utilizado para criar o cabeçalho da tabela
-                String[] cabecalho = {"Nome","Telefone","Ano de Nascimento"};
+                String[] cabecalho = {"Nome","Descrição","Tamanho","Valor"};
 
                 //percore o vetor colocando cada elemento dentro de uma célula
                 for(String s:cabecalho){

@@ -10,7 +10,7 @@ public class FabricaConexao {
     }
 
 
-    private static int MAX_CONNECTIONS=5;
+    private static int MAX_CONNECTIONS=500;
 
     private static Sgbds SGBD=Sgbds.mysql;
     private static String IP_SERVIDOR="infopguaifpr.com.br:3132";
