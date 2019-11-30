@@ -36,7 +36,7 @@ public class GerenciaVenda {
         a.setIdVenda((int)id);
         vendas.add(a);
     }
-    public ObservableList<Venda> listaProdutos(String text)throws SQLException{
+    public ObservableList<Venda> listaVendas()throws SQLException{
         vendas.clear();
         List<Venda> lista = vendaSQL.listarVendas();
         vendas.addAll(lista);

@@ -67,12 +67,12 @@ public class PDFProduto {
 
 
                 //cria a tabela
-                Table table = new Table(UnitValue.createPercentArray(new float[]{10, 20, 10,10}))
+                Table table = new Table(UnitValue.createPercentArray(new float[]{5,10, 20, 10,10}))
                         .useAllAvailableWidth();
 
 
                 //utilizado para criar o cabeçalho da tabela
-                String[] cabecalho = {"Nome","Descrição","Tamanho","Valor"};
+                String[] cabecalho = {"id","Nome","Descrição","Tamanho","Valor"};
 
                 //percore o vetor colocando cada elemento dentro de uma célula
                 for(String s:cabecalho){
@@ -101,6 +101,7 @@ public class PDFProduto {
                 //percorre a lista e inclui as células. Cada atributo da pessoa
                 //vai em uma célula separada
                 for(Produto p:lista){
+                    table.addCell(String.valueOf(p.getIdProduto()));
                     table.addCell(p.getNome());
                     table.addCell(p.getDescricao());
                     table.addCell(p.getTamanho());

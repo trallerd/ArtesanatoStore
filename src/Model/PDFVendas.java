@@ -1,6 +1,6 @@
 package Model;
 
-import Model.Gerenciadores.GerenciaUsuario;
+import Model.Gerenciadores.GerenciaVenda;
 import com.itextpdf.io.font.constants.StandardFonts;
 import com.itextpdf.kernel.colors.ColorConstants;
 import com.itextpdf.kernel.font.PdfFont;
@@ -18,14 +18,13 @@ import com.itextpdf.layout.property.UnitValue;
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class PDFUsuario {
+public class PDFVendas {
+
+    private static PDFVendas instance = new PDFVendas();
 
 
-    private static PDFUsuario instance = new PDFUsuario();
 
-
-
-    public static PDFUsuario getInstance(){
+    public static PDFVendas getInstance(){
         return instance;
     }
 
@@ -50,9 +49,8 @@ public class PDFUsuario {
         try{
 
             //utilizado para buscar a lista de pessoas
-            Usuario usuario = new Usuario();
-            java.util.List<Usuario> lista = GerenciaUsuario.getInstance().listaUsuarios();
-
+            Venda venda = new Venda();
+            java.util.List<Venda> lista = GerenciaVenda.getInstance().listaVendas();
             //cria o documento
             Document document = abreDocumento(arq);
 
@@ -69,12 +67,12 @@ public class PDFUsuario {
 
 
             //cria a tabela
-            Table table = new Table(UnitValue.createPercentArray(new float[]{5,50,50}))
+            Table table = new Table(UnitValue.createPercentArray(new float[]{5,20,5,5,10}))
                     .useAllAvailableWidth();
 
 
             //utilizado para criar o cabeçalho da tabela
-            String[] cabecalho = {"id","Nome","Email"};
+            String[] cabecalho = {"id","Data","Quantidade","User","Valor"};
 
             //percore o vetor colocando cada elemento dentro de uma célula
             for(String s:cabecalho){
@@ -102,11 +100,12 @@ public class PDFUsuario {
             table.setFontSize(12);
             //percorre a lista e inclui as células. Cada atributo da pessoa
             //vai em uma célula separada
-            for(Usuario p:lista){
-                table.addCell(String.valueOf(p.getIdUsuario()));
-                table.addCell(p.getNome());
-                table.addCell(p.getEmail());
-
+            for(Venda p:lista){
+                table.addCell(String.valueOf(p.getIdVenda()));
+                table.addCell(p.getData());
+                table.addCell(String.valueOf(p.getQuantidade()));
+                table.addCell(String.valueOf(p.getUsuario()));
+                table.addCell(String.valueOf(p.getValorTotal()));
             }
 
             //adiciona a tabela ao documento
@@ -126,4 +125,3 @@ public class PDFUsuario {
         }
     }
 }
-

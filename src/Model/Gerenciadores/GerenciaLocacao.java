@@ -38,8 +38,10 @@ public class GerenciaLocacao {
         a.setIdLocacao((int)id);
         locacoes.add(a);
     }
-    public List<Locacao> buscaLocacoes()throws SQLException{
-       List<Locacao> a = locacaoSQL.listarVendas();
-       return a;
+    public ObservableList listarLocacoes() throws SQLException {
+        locacoes.clear();
+        List<Locacao> lista = locacaoSQL.listarVendas();
+        locacoes.addAll(lista);
+        return locacoes;
     }
 }

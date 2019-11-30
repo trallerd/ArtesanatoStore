@@ -52,4 +52,9 @@ public class GerenciaUsuario {
 
         return null;
     }
+    public ObservableList listaUsuarios() throws SQLException{
+        usuarios.clear();
+        usuarios.addAll(usuarioSQL.listarUsuarios());
+        return usuarios;
+    }
 }
