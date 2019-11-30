@@ -6,6 +6,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+import java.math.BigInteger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -26,7 +27,7 @@ public class UsuarioSQL {
         Connection connection = FabricaConexao.getConnection();
 
         long id = dbAccess.insert(connection, "INSERT INTO Usuario(nome,email,senha,AdmStatus) VALUES (?,?,?,?)",
-                new ScalarHandler<Integer>(), u.getNome(), u.getEmail(), u.getSenha(),u.isAdmStatus()).longValue();
+                new ScalarHandler<BigInteger>(), u.getNome(), u.getEmail(), u.getSenha(),u.isAdmStatus()).longValue();
         connection.close();
 
         return id;

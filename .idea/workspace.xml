@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Usuarios" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/PDFVendas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Produto" beforeDir="false" afterPath="$PROJECT_DIR$/Produto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RPController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RPController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RUController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RUController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RVController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Control/RVController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaVenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/Gerenciadores/GerenciaVenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/Model/PDF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/RelatorioUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/RelatorioUsuario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/RelatorioVenda.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fazer Cadastro/View/RelatorioVenda.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/REController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/REController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/RUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/RUController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/RVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/RVController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaLocacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaLocacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gerenciadores/GerenciaVenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PDFProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PDFProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PDFUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PDFUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/RelatorioEncomendas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/RelatorioEncomendas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/RelatorioVenda.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/RelatorioVenda.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +95,7 @@
       <workItem from="1574876323759" duration="4070000" />
       <workItem from="1574882180194" duration="926000" />
       <workItem from="1574882102492" duration="303000" />
-      <workItem from="1575111303625" duration="5388000" />
+      <workItem from="1575111303625" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1574703148753</created>
