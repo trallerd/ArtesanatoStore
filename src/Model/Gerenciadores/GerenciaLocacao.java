@@ -40,7 +40,7 @@ public class GerenciaLocacao {
     }
     public ObservableList listarLocacoes() throws SQLException {
         locacoes.clear();
-        List<Locacao> lista = locacaoSQL.listarVendas();
+        List<Locacao> lista = locacaoSQL.listarLocacoes();
         locacoes.addAll(lista);
         return locacoes;
     }

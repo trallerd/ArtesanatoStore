@@ -32,12 +32,6 @@ public class ProdutoSQL {
         connection.close();
         return id;
     }
-    public boolean deletarProduto(Produto p) throws SQLException{
-        Connection connection = FabricaConexao.getConnection();
-        dbAccess.update(connection,"DELETE FROM Produto where id=?",p.getIdProduto());
-        connection.close();
-        return true;
-    }
     public List<Produto> buscaAtributo(ProdutoAtributoBusca atributo, Object valor) throws SQLException {
         String where = "";
         String valorWhere = "";

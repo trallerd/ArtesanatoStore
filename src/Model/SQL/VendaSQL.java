@@ -31,22 +31,12 @@ public class VendaSQL {
     }
     public List<Venda> listarVendas() throws SQLException {
         Connection connection = FabricaConexao.getConnection();
-        List<Venda> lista = dbAccess.query(connection,"SELECT * FROM Venda ",
+        List<Venda> lista = dbAccess.query(connection, "SELECT * FROM Venda ",
                 new BeanListHandler<Venda>(Venda.class));
 
         connection.close();
 
         return lista;
     }
-    public List<Venda> listarVendasU(Usuario u) throws SQLException {
-        Connection connection = FabricaConexao.getConnection();
-        List<Venda> lista = dbAccess.query(connection,"SELECT * FROM Venda where usuario=? ",u.getIdUsuario(),
-                new BeanListHandler<Venda>(Venda.class));
-
-        connection.close();
-
-        return lista;
-    }
-
 
 }

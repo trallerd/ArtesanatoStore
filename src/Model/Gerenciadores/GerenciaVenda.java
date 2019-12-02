@@ -42,13 +42,4 @@ public class GerenciaVenda {
         vendas.addAll(lista);
         return vendas;
     }
-
-
-
-    public ObservableList listarVendasU(Usuario user) throws SQLException {
-        vendas.clear();
-        List<Venda> lista = vendaSQL.listarVendasU(user);
-        vendas.addAll(lista);
-        return vendas;
-    }
 }
