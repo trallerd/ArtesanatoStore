@@ -32,7 +32,7 @@ public class ProdutosControll {
     public void initialize(){
         try {
             nome.setCellValueFactory(new PropertyValueFactory<>("Nome"));
-            descricao.setCellValueFactory(new PropertyValueFactory<>("Descrição"));
+            descricao.setCellValueFactory(new PropertyValueFactory<>("descricao"));
             valor.setCellValueFactory(new PropertyValueFactory<>("Valor"));
             categorias.setItems(GerenciaCategoria.getInstance().listaCategorias());
             tabelinha.setItems(GerenciaProduto.getInstance().listaProdutos());

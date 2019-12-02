@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7453aee-0a86-4009-80c8-c0fe3cbf9f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Documentação/Segundo/Banco/Banco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentação/Segundo/Banco/tads18_jessica.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Produtos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentação/Segundo/Banco/Banco.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Documentação/Segundo/Banco/Banco.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentação/Segundo/Banco/BancoSript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Documentação/Segundo/Banco/BancoSript.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentação/Segundo/Banco/ScriptPovoamento.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Documentação/Segundo/Banco/ScriptPovoamento.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentação/Segundo/Banco/banco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Produto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/Usuarios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendas" beforeDir="false" afterPath="$PROJECT_DIR$/Vendas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/ProdutosControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ProdutosControll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/REController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/REController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Control/RPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/RPController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,9 @@
       <workItem from="1574882180194" duration="926000" />
       <workItem from="1574882102492" duration="303000" />
       <workItem from="1575111303625" duration="6224000" />
-      <workItem from="1575121000503" duration="206000" />
+      <workItem from="1575121000503" duration="479000" />
+      <workItem from="1575246547939" duration="884000" />
+      <workItem from="1575247965640" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1574703148753</created>

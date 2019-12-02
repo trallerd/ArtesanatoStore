@@ -27,7 +27,7 @@ public class REController {
     public void initialize(){
         try {
             dataLocacao.setCellValueFactory(new PropertyValueFactory<>("dataLocacao"));
-            dataEntrega.setCellValueFactory(new PropertyValueFactory<>("dataEntrega"));
+            dataEntrega.setCellValueFactory(new PropertyValueFactory<>("dateEntrega"));
             produto.setCellValueFactory(new PropertyValueFactory<>("produto"));
             usuario.setCellValueFactory(new PropertyValueFactory<>("usuario"));
             tabelinha.setItems(GerenciaLocacao.getInstance().listarLocacoes());
