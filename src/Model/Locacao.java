@@ -6,14 +6,14 @@ public class Locacao implements Serializable {
     private int idLocacao;
     private String dataLocacao;
     private String dataEntrega;
-    private int produto;
-    private int usuario;
+    private Produto produto;
+    private Usuario usuario;
 
     public Locacao() {
 
     }
 
-    public Locacao(int idLocacao, String dataLocacao, String dataEntrega,  int produto, int usuario) {
+    public Locacao(int idLocacao, String dataLocacao, String dataEntrega,  Produto produto, Usuario usuario) {
         this.idLocacao = idLocacao;
         this.dataLocacao = dataLocacao;
         this.dataEntrega = dataEntrega;
@@ -45,19 +45,19 @@ public class Locacao implements Serializable {
         this.dataEntrega = dataEntrega;
     }
 
-    public int getProduto() {
+    public Produto getProduto() {
         return produto;
     }
 
-    public void setProduto(int produto) {
+    public void setProduto(Produto produto) {
         this.produto = produto;
     }
 
-    public int getUsuario() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(int usuario) {
+    public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
 }

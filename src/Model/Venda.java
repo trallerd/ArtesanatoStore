@@ -8,13 +8,13 @@ public class Venda implements Serializable {
     private double valorTotal;
     private int quantidade;
     private String data;
-    private int usuario;
+    private Usuario usuario;
 
     public Venda() {
 
     }
 
-    public Venda(int idVenda, double desconto, double valorTotal, int quantidade, String data, int usuario) {
+    public Venda(int idVenda, double desconto, double valorTotal, int quantidade, String data, Usuario usuario) {
         this.idVenda = idVenda;
         this.desconto = desconto;
         this.valorTotal = valorTotal;
@@ -63,11 +63,11 @@ public class Venda implements Serializable {
         this.data = data;
     }
 
-    public int getUsuario() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(int usuario) {
+    public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
 

@@ -8,13 +8,13 @@ public class Produto implements Serializable {
     private double valor;
     private String descricao;
     private String tamanho;
-    private int categoria;
+    private Categoria categoria;
 
     public Produto() {
 
     }
 
-    public Produto(int idProduto, String nome, double valor, String descricao, String tamanho, int categoria) {
+    public Produto(int idProduto, String nome, double valor, String descricao, String tamanho, Categoria categoria) {
         this.idProduto = idProduto;
         this.nome = nome;
         this.valor = valor;
@@ -63,11 +63,11 @@ public class Produto implements Serializable {
         this.tamanho = tamanho;
     }
 
-    public int getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(int categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
