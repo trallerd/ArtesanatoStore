@@ -4,6 +4,7 @@ import Model.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -51,6 +52,7 @@ public class ProdutoSQL {
 
         return lista;
     }
+
     public List<Produto> buscaCategoria (int id)throws SQLException{
         Connection connection = FabricaConexao.getConnection();
         List<Produto> lista = dbAccess.query(connection,"SELECT * from Produto where categoria=?",id,new BeanListHandler<Produto>(Produto.class));
@@ -71,7 +73,9 @@ public class ProdutoSQL {
             String tamanho = bC.getString("tamanho");
             int categoria = bC.getInt("categoria");
 
-            Produto c = new Produto(id,nome,valor,descricao,tamanho,categoria);
+            Categoria ca = CategoriaSQL.getInstance().buscaCategoria(categoria);
+
+            Produto c = new Produto(id,nome,valor,descricao,tamanho,ca);
             lista.add(c);
         }
         connection.close();

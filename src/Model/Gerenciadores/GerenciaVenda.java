@@ -30,7 +30,7 @@ public class GerenciaVenda {
         a.setValorTotal(valorTotal);
         a.setQuantidade(quantidade);
         a.setData(data);
-        a.setUsuario(usuario.getIdUsuario());
+        a.setUsuario(usuario);
 
         long id = vendaSQL.registrarVenda(a);
         a.setIdVenda((int)id);

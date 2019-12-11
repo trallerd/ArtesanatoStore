@@ -28,7 +28,7 @@ public class LocacaoSQL {
 
         return id;
     }
-    public List<Locacao> listarVendas() throws SQLException {
+    public List<Locacao> listarLocacoes() throws SQLException {
         Connection connection = FabricaConexao.getConnection();
         List<Locacao> lista = dbAccess.query(connection,"SELECT * FROM Locacao",
                 new BeanListHandler<Locacao>(Locacao.class));

@@ -9,13 +9,13 @@ public class Endereco implements Serializable {
     private String bairro;
     private String rua;
     private int numero;
-    private int usuario;
+    private Usuario usuario;
 
     public Endereco() {
 
     }
 
-    public Endereco(int idEndereco, String estado, String cidade, String bairro, String rua, int numero, int usuario) {
+    public Endereco(int idEndereco, String estado, String cidade, String bairro, String rua, int numero, Usuario usuario) {
         this.idEndereco = idEndereco;
         this.estado = estado;
         this.cidade = cidade;
@@ -73,16 +73,16 @@ public class Endereco implements Serializable {
         this.numero = numero;
     }
 
-    public int getUsuario() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(int usuario) {
+    public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
 
     @Override
     public String toString() {
-        return estado;
+        return estado + usuario.getIdUsuario();
     }
 }

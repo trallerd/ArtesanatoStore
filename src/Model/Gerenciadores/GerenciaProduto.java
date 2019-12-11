@@ -32,7 +32,7 @@ public class GerenciaProduto {
         a.setValor(valor);
         a.setDescricao(descricao);
         a.setTamanho(tamanho);
-        a.setCategoria(categoria.getIdCategoria());
+        a.setCategoria(categoria);
 
         long id = produtoSQL.cadastrarProduto(a);
         a.setIdProduto((int)id);

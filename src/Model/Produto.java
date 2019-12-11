@@ -73,6 +73,6 @@ public class Produto implements Serializable {
 
     @Override
     public String toString() {
-        return nome + valor;
+        return nome + valor + categoria.getIdCategoria();
     }
 }

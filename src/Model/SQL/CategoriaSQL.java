@@ -5,6 +5,8 @@ import Model.FabricaConexao;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.math.BigInteger;
@@ -12,6 +14,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class CategoriaSQL {
     private static CategoriaSQL instance = new CategoriaSQL();
@@ -31,9 +34,18 @@ public class CategoriaSQL {
 
         return id;
     }
+    public Categoria buscaCategoria(int id) throws SQLException {
+        Connection connection = FabricaConexao.getConnection();
+
+        Categoria p =dbAccess.query(connection,"SELECT * FROM Categoria WHERE idCategoria=?",
+                new BeanHandler<Categoria>(Categoria.class),id);
+
+        connection.close();
+        return p;
+    }
     public boolean deletCategoria(Categoria p) throws SQLException {
         Connection connection = FabricaConexao.getConnection();
-        dbAccess.update(connection,"DELETE FROM Categoria where id=?",p.getIdCategoria());
+        dbAccess.update(connection,"DELETE FROM Categoria where idCategoria=?",p.getIdCategoria());
         connection.close();
         return true;
     }

@@ -33,6 +33,5 @@ public class Categoria implements Serializable {
 
     @Override
     public String toString() {
-        return nome;
-    }
+        return "Categoria" +idCategoria;    }
 }

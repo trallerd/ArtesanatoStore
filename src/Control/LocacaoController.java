@@ -2,6 +2,8 @@ package Control;
 
 import Model.Gerenciadores.GerenciaLocacao;
 import Model.Locacao;
+import Model.Produto;
+import Model.SQL.ProdutoSQL;
 import Model.Usuario;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -29,11 +31,12 @@ public class LocacaoController {
     SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd");
 
 
-    public void encomenda(ActionEvent actionEvent) throws IOException {
+    public void encomenda(ActionEvent actionEvent) throws IOException, SQLException {
             String DataLocacao = dataLocacao.getEditor().getText();
             String DataEntrega = dataEntrega.getEditor().getText();
             System.out.println(DataEntrega);
-            int produto = 5;
+
+            Produto produto = (Produto) ProdutoSQL.getInstance().buscaCategoria(5);
             Usuario u = ControleController.getUser();
 
             try{

@@ -31,7 +31,7 @@ public class GerenciaEndereco {
         a.setBairro(bairro);
         a.setRua(rua);
         a.setNumero(numero);
-        a.setUsuario(usuario.getIdUsuario());
+        a.setUsuario(usuario);
 
         long id = enderecoSQL.inserirEndereco(a);
         a.setIdEndereco((int)id);
@@ -48,7 +48,7 @@ public class GerenciaEndereco {
         a.setBairro(bairro);
         a.setRua(rua);
         a.setNumero(numero);
-        a.setUsuario(usuario.getIdUsuario());
+        a.setUsuario(usuario);
         enderecoSQL.atualizarEndereco(a,a.getIdEndereco());
         enderecos.add(a);
     }
